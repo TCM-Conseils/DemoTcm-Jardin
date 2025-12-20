@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>JardinExpert Québec – Services de jardinage professionnel</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="jardinage québec, paysagiste, entretien jardin, aménagement paysager, irrigation, déneigement" name="keywords">
+    <meta content="Services professionnels de jardinage, aménagement paysager et déneigement au Québec" name="description">
+
+    <!-- Favicon -->
+    <link href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Montserrat:wght@500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Spinner -->
+    <div id="spinner">
+        <div class="spinner-border"></div>
+    </div>
+
+    <!-- Topbar -->
+    <div class="topbar">
+        <div class="container">
+            <div class="logo-section">
+                <i class="fas fa-leaf"></i>
+                <h1>JardinExpert Québec</h1>
+            </div>
+            <div class="topbar-info">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>890 Avenue des Érables, Québec, QC</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>contact@jardinexpert-qc.ca</span>
+                </div>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="active">Accueil</a></li>
+                <li><a href="#about">À Propos</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Réalisations</a></li>
+                <li><a href="#team">Notre Équipe</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="emergency-contact">
+                <i class="fas fa-phone-alt"></i>
+                <div class="text">
+                    <p>Appelez-nous</p>
+                    <h5>📞 +1 418 555 VERT</h5>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <h1>Votre Jardin de Rêve Commence Ici</h1>
+            <p>Aménagement paysager, entretien et design de jardins professionnels partout au Québec</p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn btn-primary">Nos Services</a>
+                <a href="#contact" class="btn btn-secondary">Demander un Devis</a>
+            </div>
+        </div>
+        <div class="hero-features">
+            <div class="feature-box">
+                <i class="fas fa-seedling"></i>
+                <span>Éco-responsable</span>
+            </div>
+            <div class="feature-box">
+                <i class="fas fa-award"></i>
+                <span>Certifié</span>
+            </div>
+            <div class="feature-box">
+                <i class="fas fa-clock"></i>
+                <span>Ponctuel</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h6>Nos Services</h6>
+                <h2>Ce Que Nous Faisons Pour Votre Jardin</h2>
+                <p>Des solutions complètes pour tous vos besoins en jardinage et aménagement paysager</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tree"></i>
+                    </div>
+                    <h3>Aménagement Paysager</h3>
+                    <p>Conception et réalisation d'espaces verts personnalisés. Transformation complète de votre terrain.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Design personnalisé</li>
+                        <li><i class="fas fa-check"></i> Plantation d'arbres</li>
+                        <li><i class="fas fa-check"></i> Installation de gazon</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3>Entretien de Pelouse</h3>
+                    <p>Tonte, aération, fertilisation et traitement pour un gazon verdoyant toute la saison.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Tonte régulière</li>
+                        <li><i class="fas fa-check"></i> Bordures et finition</li>
+                        <li><i class="fas fa-check"></i> Fertilisation</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-flower-tulip"></i>
+                    </div>
+                    <h3>Plates-bandes & Fleurs</h3>
+                    <p>Création de magnifiques plates-bandes colorées adaptées au climat québécois.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Design floral</li>
+                        <li><i class="fas fa-check"></i> Plantes vivaces</li>
+                        <li><i class="fas fa-check"></i> Annuelles saisonnières</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <h3>Irrigation</h3>
+                    <p>Installation et entretien de systèmes d'irrigation automatiques pour un arrosage optimal.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Systèmes automatiques</li>
+                        <li><i class="fas fa-check"></i> Économie d'eau</li>
+                        <li><i class="fas fa-check"></i> Entretien annuel</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-snowflake"></i>
+                    </div>
+                    <h3>Déneigement</h3>
+                    <p>Service de déneigement résidentiel et commercial durant la saison hivernale.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Intervention rapide</li>
+                        <li><i class="fas fa-check"></i> Déglaçage</li>
+                        <li><i class="fas fa-check"></i> Forfaits saisonniers</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Nettoyage Saisonnier</h3>
+                    <p>Nettoyage printanier et automnal pour préparer votre jardin aux changements de saison.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Ramassage de feuilles</li>
+                        <li><i class="fas fa-check"></i> Taille d'arbustes</li>
+                        <li><i class="fas fa-check"></i> Préparation hivernale</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h6>À Propos De Nous</h6>
+                    <h2>Passionnés de Jardinage Depuis 1998</h2>
+                    <p>Depuis plus de 25 ans, JardinExpert Québec transforme les espaces extérieurs en véritables oasis de verdure. Notre équipe d'horticulteurs et paysagistes certifiés met son expertise au service de vos projets, qu'ils soient résidentiels ou commerciaux.</p>
+                    <p>Nous croyons fermement que chaque jardin est unique et mérite une attention particulière. C'est pourquoi nous adoptons une approche personnalisée pour chaque client, en tenant compte de vos goûts, de votre budget et des caractéristiques de votre terrain.</p>
+                    <p><em>« Un beau jardin, c'est le reflet d'une vie harmonieuse avec la nature. »</em></p>
+                    
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <i class="fas fa-certificate"></i>
+                            <span>Paysagistes Certifiés & Expérimentés</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-leaf"></i>
+                            <span>Pratiques Écologiques & Durables</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-handshake"></i>
+                            <span>Garantie Satisfaction Client</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-tools"></i>
+                            <span>Équipement Professionnel Moderne</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-box">
+                        <i class="fas fa-phone-volume"></i>
+                        <div>
+                            <p>Besoin de conseils ?</p>
+                            <h3>📞 +1 418 555 VERT</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://soumissionrenovation-prod.s3.us-east-1.amazonaws.com/55773223-8ccb-45cc-a8fe-b24535b94118.png" alt="Équipe JardinExpert Québec au travail dans un jardin">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stat-item">
+                <i class="fas fa-calendar-check"></i>
+                <h2 class="counter" data-target="25">0</h2>
+                <p>Années d'Expérience</p>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-users"></i>
+                <h2 class="counter" data-target="1200">0</h2>
+                <p>Clients Satisfaits</p>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-project-diagram"></i>
+                <h2 class="counter" data-target="2500">0</h2>
+                <p>Projets Réalisés</p>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-award"></i>
+                <h2 class="counter" data-target="15">0</h2>
+                <p>Prix & Distinctions</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h6>Nos Réalisations</h6>
+                <h2>Découvrez Nos Plus Beaux Projets</h2>
+                <p>Des transformations spectaculaires qui parlent d'elles-mêmes</p>
+            </div>
+
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="amenagement">Aménagement</button>
+                <button class="filter-btn" data-filter="entretien">Entretien</button>
+                <button class="filter-btn" data-filter="fleurs">Plates-bandes</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="amenagement">
+                    <img src="https://media.architecturaldigest.com/photos/628fb43b978896c06b13b204/master/pass/GettyImages-957245348.jpg" alt="Jardin moderne urbain - Sainte-Foy">
+                    <div class="portfolio-info">
+                        <h4>Jardin Moderne Urbain</h4>
+                        <p>Aménagement paysager complet - Sainte-Foy</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="fleurs">
+                    <img src="https://images.finegardening.com/app/uploads/2023/06/14134701/9-1.jpg" alt="Plates-bandes colorées - Beauport">
+                    <div class="portfolio-info">
+                        <h4>Plates-bandes Colorées</h4>
+                        <p>Design floral saisonnier - Beauport</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="entretien">
+                    <img src="https://grasspromtl.ca/wp-content/uploads/2024/03/lawncare-montreal-quebec-in-cote-st-luc-min-1.png" alt="Pelouse impeccable - Cap-Rouge">
+                    <div class="portfolio-info">
+                        <h4>Pelouse Impeccable</h4>
+                        <p>Entretien régulier - Cap-Rouge</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="amenagement">
+                    <img src="https://blog.canadianloghomes.com/wp-content/uploads/2023/12/backyard-landscaping-ideas.jpg" alt="Terrasse & pergola - Lévis">
+                    <div class="portfolio-info">
+                        <h4>Terrasse & Pergola</h4>
+                        <p>Espace détente extérieur - Lévis</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="fleurs">
+                    <img src="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=3569654026689045" alt="Jardin de vivaces - Charlesbourg">
+                    <div class="portfolio-info">
+                        <h4>Jardin de Vivaces</h4>
+                        <p>Aménagement écologique - Charlesbourg</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="amenagement">
+                    <img src="https://avantilandscaping.ca/wp-content/uploads/2025/04/4.webp" alt="Cour arrière complète - Québec">
+                    <div class="portfolio-info">
+                        <h4>Cour Arrière Complète</h4>
+                        <p>Transformation totale - Québec</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team" id="team">
+        <div class="container">
+            <div class="section-header">
+                <h6>Notre Équipe</h6>
+                <h2>Des Experts Passionnés à Votre Service</h2>
+            </div>
+            
+            <div class="team-grid">
+                <div class="team-card">
+                    <img src="https://media.istockphoto.com/id/671263588/photo/group-of-people-planting-vegetable-in-greenhouse.jpg?s=612x612&w=0&k=20&c=j2n2GC1RfbGaHnipQ2kM_Yc4BH7wCz6TRgifGHbUp7o=" alt="François Bélanger - Paysagiste en Chef">
+                    <div class="team-info">
+                        <h4>François Bélanger</h4>
+                        <p>Paysagiste en Chef</p>
+                        <div class="team-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <img src="https://media.gettyimages.com/id/2149151012/photo/diverse-team-of-horticulturists-at-work.jpg?s=612x612&w=gi&k=20&c=JXC2-sbvTfpW7St1zvz_3S85fhwm0JcdHcdSbPUHo00=" alt="Sophie Tremblay - Horticultrice Senior">
+                    <div class="team-info">
+                        <h4>Sophie Tremblay</h4>
+                        <p>Horticultrice Senior</p>
+                        <div class="team-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <img src="https://media.istockphoto.com/id/169950382/photo/group-of-teenage-friends-gardening.jpg?s=612x612&w=0&k=20&c=tmQaK5CcKMFMsg60uW0RDxw55alUyRLZf-D1XydQfoE=" alt="Marc Gagnon - Chef d'Équipe Terrain">
+                    <div class="team-info">
+                        <h4>Marc Gagnon</h4>
+                        <p>Chef d'Équipe Terrain</p>
+                        <div class="team-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <img src="https://media.istockphoto.com/id/1427848310/photo/multiracial-group-of-young-men-and-young-women-gather-as-volunteers-to-plant-vegetables-in.jpg?s=612x612&w=0&k=20&c=3dzwDaO5nrQBwlKW0iXAivhp9sarZma_Dp6hD40znAk=" alt="Isabelle Roy - Designer Paysagiste">
+                    <div class="team-info">
+                        <h4>Isabelle Roy</h4>
+                        <p>Designer Paysagiste</p>
+                        <div class="team-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chatbot Section -->
+    <section class="chatbot-section">
+        <div class="container">
+            <div class="chatbot-content">
+                <div class="chatbot-image">
+                    <img src="https://thumbs.dreamstime.com/b/cute-robot-watering-plants-peaceful-garden-cute-robot-watering-plants-peaceful-garden-created-generative-ai-274406116.jpg" alt="Assistant Jardinier Virtuel - Robot mignon">
+                </div>
+                <div class="chatbot-text">
+                    <h2>🌿 Besoin de Conseils Jardinage ?</h2>
+                    <p>Discutez avec notre assistant virtuel pour obtenir des recommandations personnalisées, poser vos questions ou demander un devis gratuit.</p>
+                    
+                    <div class="chat-icon" id="chatIcon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    
+                    <p class="chat-cta">👇 Cliquez pour discuter avec un expert 👇</p>
+                    
+                    <div class="chatbot-features">
+                        <div class="chat-feature">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Prise de rendez-vous</span>
+                        </div>
+                        <div class="chat-feature">
+                            <i class="fas fa-calculator"></i>
+                            <span>Devis gratuit</span>
+                        </div>
+                        <div class="chat-feature">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Conseils personnalisés</span>
+                        </div>
+                        <div class="chat-feature">
+                            <i class="fas fa-leaf"></i>
+                            <span>Identification de plantes</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h6>Témoignages</h6>
+                <h2>Ce Que Nos Clients Disent</h2>
+            </div>
+
+            <div class="testimonials-slider" id="testimonialsSlider">
+                <div class="testimonial-card">
+                    <img src="https://www.floretflowers.com/wp-content/uploads/2025/03/Floret-frances-palmer-life-in-the-garden-831-640x427.jpg" alt="Marie Dubois" class="testimonial-img">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"Service exceptionnel ! Notre jardin est maintenant magnifique. L'équipe est professionnelle et très à l'écoute."</p>
+                    <div class="testimonial-author">
+                        <h5>Marie Dubois</h5>
+                        <span>Sainte-Foy</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <img src="https://i.cbc.ca/ais/1.6569248,1662037009000/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C111%2C2048%2C1152%29%3B" alt="Pierre Leclerc" class="testimonial-img">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"Ponctualité, qualité et prix raisonnables. Je recommande JardinExpert à tous mes amis !"</p>
+                    <div class="testimonial-author">
+                        <h5>Pierre Leclerc</h5>
+                        <span>Cap-Rouge</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <img src="https://bloximages.chicago2.vip.townnews.com/nobhillgazette.com/content/tncms/assets/v3/editorial/a/73/a73a42ee-fc46-11ee-bcf7-d331048ae2e8/662c35d6d83cf.image.jpg?resize=750%2C500" alt="Caroline Leblanc" class="testimonial-img">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"Ils ont transformé notre cour en paradis ! Design créatif et exécution impeccable."</p>
+                    <div class="testimonial-author">
+                        <h5>Caroline Leblanc</h5>
+                        <span>Beauport</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-controls">
+                <button class="slider-btn" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+                <button class="slider-btn" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Notre Localisation</h2>
+                <p>Visitez notre bureau ou contactez-nous pour un devis gratuit</p>
+            </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43453.77899457279!2d-71.28223649999999!3d46.813878399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb895d8bd0d1e67%3A0xd834755ca25bf0b7!2sQuebec%20City%2C%20QC!5e0!3m2!1sen!2sca!4v1234567890123!5m2!1sen!2sca" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h4>JardinExpert Québec</h4>
+                    <p>Votre partenaire de confiance pour tous vos besoins en jardinage et aménagement paysager.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 890 Avenue des Érables<br>Québec, QC G1R 2K6</p>
+                    <p><i class="fas fa-phone-alt"></i> +1 418 555 VERT (8378)</p>
+                    <p><i class="fas fa-envelope"></i> contact@jardinexpert-qc.ca</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Horaires</h4>
+                    <p><strong>Lundi - Vendredi:</strong><br>7h00 - 19h00</p>
+                    <p><strong>Samedi:</strong><br>8h00 - 17h00</p>
+                    <p><strong>Dimanche:</strong><br>9h00 - 15h00</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <p>Recevez nos conseils jardinage et promotions</p>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <input type="email" placeholder="Votre email" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 JardinExpert Québec. Tous droits réservés. | Conçu avec 🌿 pour votre jardin</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Custom JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="https://embed.quebotia.com/js/chatbot-bundle.min.js"></script>
+    <script>
+        // Initialize the chatbot widget
+        TCMChatbot.init({
+            company_name: "Demo Company",
+            TCM_API_KEY: "tcm_1764940314_n7rmi5TZDCULKul__PiX1IMQNZg_6o58o_8s6ypKm78",
+            headerColor: "#007bff",
+            sendButtonColor: "#28a745",
+            label: "Écrivez votre message...",
+            pageLink: "/chat-demo",
+            height: '680px',
+            width : '400px'
+        });
+    </script>
+</body>
+</html>

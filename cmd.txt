@@ -1,0 +1,8 @@
+
+git remote add origin https://github.com/TCM-Conseils/demo-site-web.git
+git branch -M main
+git push -u origin main
+
+git remote set-url origin git@github.com/TCM-Conseils/demo-site-web.git
+
+git remote set-url origin https://Yvan-Wabo@github.com/TCM-Conseils/demo-site-web.git
