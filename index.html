@@ -69,8 +69,8 @@
             <div class="emergency-contact">
                 <i class="fas fa-phone-alt"></i>
                 <div class="text">
-                    <p><a href="https://yellow-pebble-0d33cd20f.6.azurestaticapps.net/tcm-page?conversation-id=cc577ee1-6522-407e-9028-60bfe7d88aa5&API_KEY=tcm_1764940314_n7rmi5TZDCULKul__PiX1IMQNZg_6o58o_8s6ypKm78" target="_blank" rel="noopener">Appelez-nous</a></p>
-                    <h5><a href="https://yellow-pebble-0d33cd20f.6.azurestaticapps.net/tcm-page?conversation-id=cc577ee1-6522-407e-9028-60bfe7d88aa5&API_KEY=tcm_1764940314_n7rmi5TZDCULKul__PiX1IMQNZg_6o58o_8s6ypKm78" target="_blank" rel="noopener">📞 +1 418 555 VERT</a></h5>
+                    <p>Appelez-nous</p>
+                    <h5>📞 +1 418 555 VERT</h5>
                 </div>
             </div>
         </div>
@@ -83,7 +83,7 @@
             <p>Aménagement paysager, entretien et design de jardins professionnels partout au Québec</p>
             <div class="hero-buttons">
                 <a href="#services" class="btn btn-primary">Nos Services</a>
-                <a href="https://yellow-pebble-0d33cd20f.6.azurestaticapps.net/tcm-page?conversation-id=cc577ee1-6522-407e-9028-60bfe7d88aa5&API_KEY=tcm_1764940314_n7rmi5TZDCULKul__PiX1IMQNZg_6o58o_8s6ypKm78" class="btn btn-secondary" target="_blank" rel="noopener">Demander un Devis</a>
+                <a class="btn btn-secondary" target="_blank" rel="noopener">Demander un Devis</a>
             </div>
         </div>
         <div class="hero-features">
@@ -227,7 +227,7 @@
                         <i class="fas fa-phone-volume"></i>
                         <div>
                             <p>Besoin de conseils ?</p>
-                            <h3><a href="https://yellow-pebble-0d33cd20f.6.azurestaticapps.net/tcm-page?conversation-id=cc577ee1-6522-407e-9028-60bfe7d88aa5&API_KEY=tcm_1764940314_n7rmi5TZDCULKul__PiX1IMQNZg_6o58o_8s6ypKm78" target="_blank" rel="noopener">📞 +1 418 555 VERT</a></h3>
+                            <h3><atarget="_blank" rel="noopener">📞 +1 418 555 VERT</atarget=></h3>
                         </div>
                     </div>
                 </div>
@@ -554,10 +554,19 @@
 
     <!-- Custom JavaScript -->
     <script src="js/main.js"></script>
-    <script src="https://embed.quebotia.com/js/chatbubble.js"
-        data-environment='prod'
-        data-id='bb2defed-fe20-41e9-b5f9-bd22b065a0d7'
-        data-position='bottom-right'>
+    <script src="https://embed.quebotia.com/js/chatbot-bundle.min.js"></script>
+    <script>
+        // Initialize the chatbot widget
+        TCMChatbot.init({
+            company_name: "Demo Company",
+            TCM_API_KEY: "tcm_1764940314_n7rmi5TZDCULKul__PiX1IMQNZg_6o58o_8s6ypKm78",
+            headerColor: "#007bff",
+            sendButtonColor: "#28a745",
+            label: "Écrivez votre message...",
+            pageLink: "/chat-demo",
+            height: '680px',
+            width : '400px'
+        });
     </script>
 </body>
 </html>
