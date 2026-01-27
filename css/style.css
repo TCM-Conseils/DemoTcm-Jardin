@@ -287,8 +287,8 @@ img {
 }
 
 .btn-secondary:hover {
-    background: #2563EB;
-    transform: translateY(-3px);
+    background:#166534;
+    /* transform: translateY(-3px); */
 }
 
 .hero-buttons {
